@@ -1,0 +1,24 @@
+.travel_list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 360px;
+    width: 480px;
+    background-color: #eeeeee;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+.travel_list_item{
+    height: 50px;
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.travel_list_item:hover{
+    cursor: pointer;
+    background-color: #D8D8D8;
+}

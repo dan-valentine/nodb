@@ -1,0 +1,39 @@
+body{
+  background-image: url("starry-stars.jpeg");
+}
+/* @import url("./Starjedi.ttf"); */
+
+@font-face {
+  font-family: "StarWars";
+  src: url("Starjedi.ttf");
+ }
+
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 40s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #810000;
+  height: 250px;
+  padding: 20px;
+  font-family: "StarWars";
+  font-size: 40px;
+  color: #B5A61B;
+}
+.App-header h2{
+  font-family: "StarWars";
+}
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
